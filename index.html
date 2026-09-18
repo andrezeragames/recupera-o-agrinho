@@ -1,1 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Acesso+ | Tecnologia para todos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar" aria-label="Navegação principal">
+
+            <a href="#inicio" class="logo">
+                Acesso+
+            </a>
+
+            <button id="contraste" class="botao-acessibilidade">
+                Alto contraste
+            </button>
+
+            <button id="aumentarTexto" class="botao-acessibilidade">
+                Aumentar texto
+            </button>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-conteudo">
+
+                <span class="etiqueta">INCLUSÃO DIGITAL</span>
+
+                <h1>Tecnologia acessível para todos</h1>
+
+                <p>
+                    O Acesso+ é um projeto criado para mostrar como
+                    tecnologia, UX e acessibilidade podem trabalhar
+                    juntas para construir experiências digitais mais
+                    inclusivas.
+                </p>
+
+                <a href="#recursos" class="botao">
+                    Conheça os recursos
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section id="recursos" class="secao">
+
+            <div class="titulo-secao">
+                <span>ACESSIBILIDADE</span>
+
+                <h2>Recursos para uma experiência inclusiva</h2>
+
+                <p>
+                    Pequenas mudanças em uma interface podem facilitar
+                    bastante o acesso à tecnologia.
+                </p>
+            </div>
+
+
+            <div class="cards">
+
+                <article class="card">
+
+                    <div class="icone" aria-hidden="true">
+                        🔎
+                    </div>
+
+                    <h3>Texto legível</h3>
+
+                    <p>
+                        Tamanhos de fonte adequados e bom contraste
+                        ajudam pessoas com diferentes níveis de visão.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="icone" aria-hidden="true">
+                        ⌨️
+                    </div>
+
+                    <h3>Navegação por teclado</h3>
+
+                    <p>
+                        Os elementos podem ser acessados utilizando
+                        apenas o teclado.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="icone" aria-hidden="true">
+                        🔊
+                    </div>
+
+                    <h3>Conteúdo compreensível</h3>
+
+                    <p>
+                        Informações objetivas e bem organizadas
+                        facilitam a compreensão.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section class="secao destaque">
+
+            <div>
+
+                <span class="etiqueta">UX + HCI</span>
+
+                <h2>Uma interface deve considerar as pessoas</h2>
+
+                <p>
+                    UX (User Experience) busca criar experiências
+                    úteis, simples e agradáveis. Já HCI (Interação
+                    Humano-Computador) estuda a maneira como as pessoas
+                    interagem com sistemas computacionais.
+                </p>
+
+                <p>
+                    Quando esses conceitos são combinados com
+                    acessibilidade, podemos desenvolver produtos
+                    digitais que atendam a uma quantidade maior
+                    de pessoas.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="secao">
+
+            <div class="titulo-secao">
+
+                <span>DIREITOS DIGITAIS</span>
+
+                <h2>Seus direitos também existem no ambiente digital</h2>
+
+            </div>
+
+
+            <div class="direitos">
+
+                <div>
+                    <h3>🔒 Privacidade</h3>
+
+                    <p>
+                        Dados pessoais devem ser tratados com
+                        responsabilidade e segurança.
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3>🌐 Acesso</h3>
+
+                    <p>
+                        A tecnologia pode contribuir para ampliar
+                        oportunidades de educação, comunicação e trabalho.
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3>🛡️ Segurança</h3>
+
+                    <p>
+                        Usuários precisam de ambientes digitais
+                        seguros e informações claras sobre seus dados.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="secao participacao">
+
+            <div class="titulo-secao">
+
+                <span>PARTICIPE</span>
+
+                <h2>Como tornar a tecnologia mais inclusiva?</h2>
+
+                <p>
+                    Escolha uma atitude que pode contribuir para
+                    uma internet mais acessível.
+                </p>
+
+            </div>
+
+
+            <div class="opcoes">
+
+                <button class="opcao" data-resposta="sim">
+                    Usar textos claros
+                </button>
+
+                <button class="opcao" data-resposta="sim">
+                    Utilizar bom contraste
+                </button>
+
+                <button class="opcao" data-resposta="sim">
+                    Criar alternativas para conteúdos visuais
+                </button>
+
+                <button class="opcao" data-resposta="sim">
+                    Permitir navegação por teclado
+                </button>
+
+            </div>
+
+
+            <p id="mensagem" class="mensagem" role="status"></p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-conteudo">
+
+            <h2>Acesso+</h2>
+
+            <p>
+                Desenvolvendo interfaces mais acessíveis,
+                humanas e inclusivas.
+            </p>
+
+            <p>
+                Projeto educacional — Start by Alura
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
